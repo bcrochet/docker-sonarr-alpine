@@ -37,11 +37,10 @@ RUN apk -U upgrade && \
     cd /MediaInfo_CLI_GNU_FromSource/MediaInfo/Project/GNU/CLI/ && \
     make install && \
 \
-\
     cd /MediaInfo_DLL_GNU_FromSource && \
     ./SO_Compile.sh && \
     cd /MediaInfo_DLL_GNU_FromSource/MediaInfoLib/Project/GNU/Library && \
-    make install && \ && \
+    make install && \
     cd /MediaInfo_DLL_GNU_FromSource/ZenLib/Project/GNU/Library && \
     make install && \
 \
