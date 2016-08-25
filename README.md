@@ -1,6 +1,6 @@
 # docker sonarr
 
-This is a Dockerfile to set up "sonarr" - (https://sonarr.tv/)
+Dockerfile to set up "sonarr" - (https://sonarr.tv/)
 
 docker run \
     --restart=always \ 

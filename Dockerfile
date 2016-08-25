@@ -38,7 +38,7 @@ RUN apk -U upgrade && \
     mkdir /sonarr/.config && \
     mkdir /config && \
     ln -sf /root/.config /config && \
-    chown -R sonarr: /NzbDrone sonarr/.config /config && \
+    chown -R sonarr: /NzbDrone /sonarr/.config /config && \
 \
     apk del \
     make \
